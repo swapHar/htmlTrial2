@@ -6,22 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My second documment</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- kroppen på min sida -->
     <header>
-        <h1>My home page</h1>
+    <nav>
+        <h1>Contact</h1>
         <a href="index.html">Home page</a>
         <a href="about.html">About me</a>
         <a href="hobby.html">My Hobbies</a>
         <a class="active" href="contact.html">Contact</a>
-
+    </nav>
     </header>
     <main>
         <!-- huvud inhåll på sidan-->
-        <p id="my-id">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, eligendi sunt non velit blanditiis qui hic a laborum iure consequatur recusandae assumenda nobis eum nihil? Esse explicabo pariatur facilis optio!</p>
-        <p class="my-class">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, omnis. Temporibus perferendis dolor ad iste laudantium nobis eius quo quos, magni praesentium sint veniam modi odit dolores voluptates saepe nisi.</p>
-        <p class="two classes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam similique eaque modi earum rem inventore autem sequi quasi, maiores vero id, commodi ducimus dolor tenetur quaerat eius necessitatibus perspiciatis doloribus?</p>
+        <hi>Contact me</hi>
+        <form>
+            <label for="name">Name:</label><br>
+            <input class="my-form" type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label><br>
+            <input class="my-form" type="email" id="email" name="email"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea class="my-form" id="message" name="message"></textarea><br>
+
+            <!--input[name="hello"] == <input type="text" name="hello"> --> <!--shortcut-->
+            
+            
+
+            <input type="submit" value="Send"
+        </form>
     </main>
     <footer>
         <!-- sidfot, copyright och annat -->

@@ -1,0 +1,53 @@
+/* comments for css */
+/* ta bort utrymme i body */
+body{
+    margin: 0;
+}
+
+/* footer i botten, alltid */
+main {
+    flex: 1;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: Verdana;
+}
+/* footer i botten slut */
+.my-class{
+    color: brown;
+}
+
+#my-id{
+    color: rgb(21, 228, 6);
+}
+
+.two.classes{
+    color: blue;
+}
+
+header{
+    background-color: aqua;
+    padding-left: 20px;
+}
+
+header h1{
+    font-family: Verdana;
+    font-size: 45px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+header nav{
+    margin-left: -12px;
+}
+
+header nav a{
+    display: inline-block;
+    padding: 0 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
